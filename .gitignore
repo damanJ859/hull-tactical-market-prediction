@@ -1,5 +1,33 @@
-.venv/
-.ipynb_checkpoints/
+# Python
+*.pyc
 __pycache__/
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# MacOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Model artifacts
+data/processed/models/
+*.pkl
+
+# Kaggle
+kaggle.json
+
+# Data files (DO NOT UPLOAD KAGGLE DATA)
 data/raw/
-data/processed/
+data/processed/*.csv
+
+# Logs
+*.log
+logs/
