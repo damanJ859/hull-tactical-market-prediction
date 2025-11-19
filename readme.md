@@ -57,7 +57,7 @@ cd hull-tactical-market-prediction
 
 python -m venv .venv
 source .venv/bin/activate          # macOS/Linux
-# or
+or
 .\.venv\Scripts\activate           # Windows
 
 ### 3. Install dependencies
